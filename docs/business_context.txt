@@ -1,0 +1,5 @@
+A EntregaCerta é uma empresa fictícia de comércio eletrônico que atende clientes em diferentes regiões do Brasil. A empresa trabalha com múltiplas transportadoras e modalidades de envio.
+
+Recentemente, a equipe de operações identificou dificuldades em cumprir os prazos de entrega prometidos aos clientes. Como os atrasos podem comprometer a satisfação dos consumidores e gerar custos operacionais, a empresa busca compreender quais fatores estão associados a esse problema e identificar antecipadamente os pedidos com maior risco de atraso.
+
+Para isso, pretende utilizar técnicas de Ciência de Dados e Machine Learning, além de ferramentas de visualização, como o Power BI, para apoiar a tomada de decisões e melhorar o planejamento logístico.

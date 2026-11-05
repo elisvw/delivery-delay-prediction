@@ -1,0 +1,20 @@
+﻿variavel,descricao,tipo
+pedido_id,Identificador único do pedido.,Texto
+data_pedido,Data em que o pedido foi realizado.,Data
+regiao_destino,Região brasileira de destino.,Categórica
+estado_destino,UF de destino.,Categórica
+categoria_produto,Categoria principal do produto comprado.,Categórica
+transportadora,Empresa fictícia responsável pelo transporte.,Categórica
+modalidade_envio,Tipo de envio contratado.,Categórica
+distancia_km,"Distância estimada entre o centro de distribuição e o destino, em km.",Numérica
+valor_pedido_brl,Valor total do pedido em reais.,Numérica
+estoque_disponivel,Indica se o produto estava disponível no estoque no momento do pedido.,Categórica
+carga_centro_distribuicao_pct,"Nível estimado de carga operacional do centro de distribuição, em %.",Numérica
+chuva_prevista_mm,"Precipitação prevista para a rota, em milímetros.",Numérica
+congestionamento_rota,Nível estimado de congestionamento na rota.,Categórica
+lead_time_fornecedor_dias,"Tempo estimado de abastecimento do fornecedor, em dias.",Numérica
+dias_prometidos,"Prazo prometido ao cliente, em dias após o pedido.",Numérica
+fim_de_semana,1 se o pedido foi realizado sábado ou domingo; 0 caso contrário.,Binária
+atrasou,Variável-alvo: 1 se houve atraso; 0 se a entrega ocorreu no prazo.,Binária
+dias_atraso,Quantidade de dias de atraso; zero quando não houve atraso. Não usar como preditora de atrasou.,Numérica
+data_entrega,Data efetiva simulada da entrega. Campo pós-evento; não usar como preditora de atrasou.,Data
